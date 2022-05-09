@@ -1,4 +1,5 @@
 # All unpinned blobs below are extracted from V14.0.4.0.SJWMIXM (CURTANAGlobal)
+# cheetah: cheetah-user-15-AP3A.241005.015-12366759-release-keys
 # curtana: V14.0.4.0.SJWMIXM (CURTANAGlobal)
 # excalibur: V14.0.2.0.SJXINXM (EXCALIBURINGlobal)
 # joyeuse: V14.0.3.0.SJZMIXM (JOYEUSEGlobal)
@@ -90,6 +91,9 @@ vendor/lib/libsurround_3mic_proc.so
 # Audio FX modules
 vendor/lib/soundfx/libasphere.so
 vendor/lib/soundfx/libshoebox.so
+
+# Audio (Spatial audio) - from cheetah
+vendor/lib/soundfx/libspatialaudio.so|1b574e25db97b76b712ddffda6da42c3c5c5df6e
 
 # Battery
 vendor/bin/batterysecret
