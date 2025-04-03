@@ -3,7 +3,11 @@
 <module name="bluetooth" halVersion="2.0">
     <mixPorts>
         <!-- A2DP Audio Ports -->
-        <mixPort name="a2dp output" role="source" flags="AUDIO_OUTPUT_FLAG_SPATIALIZER"/>
+        <mixPort name="a2dp output" role="source" flags="AUDIO_OUTPUT_FLAG_SPATIALIZER">
+            <profile name="" format="AUDIO_FORMAT_PCM_FLOAT"
+                     samplingRates="48000"
+                     channelMasks="AUDIO_CHANNEL_OUT_STEREO"/>
+        </mixPort>
         <!-- Hearing AIDs Audio Ports -->
         <mixPort name="hearing aid output" role="source">
             <profile name="" format="AUDIO_FORMAT_PCM_16_BIT"
