@@ -183,6 +183,11 @@ persist.log.tag.TrafficStats=S
 persist.log.tag.ContrastColorUtil=S
 persist.log.tag.OpenGLRenderer=S
 
+# Dolby
+persist.vendor.audio_fx.current=dolby
+ro.hardware.soc.manufacturer=qcom
+ro.vendor.audio.dolby.dax.support=true
+
 # DRM
 drm.service.enabled=true
 
