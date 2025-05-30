@@ -191,6 +191,7 @@ include $(DEVICE_PATH)/sepolicy/miuicamera/SEPolicy.mk
 include $(DEVICE_PATH)/sepolicy/misys/SEPolicy.mk
 include device/lineage/sepolicy/libperfmgr/sepolicy.mk
 include device/qcom/sepolicy_vndr/SEPolicy.mk
+include hardware/sony/timekeep/sepolicy/SEPolicy.mk
 BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
 
 # Updater
