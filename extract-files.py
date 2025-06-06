@@ -1,4 +1,4 @@
-#!/usr/bin/env -S PYTHONPATH=../../../tools/extract-utils python3
+#!/usr/bin/env -S PYTHONPATH=../../../tools/extract-utils python3.11
 #
 # SPDX-FileCopyrightText: 2024-2025 The LineageOS Project
 # SPDX-License-Identifier: Apache-2.0
