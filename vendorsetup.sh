@@ -21,7 +21,7 @@ fi
 git clone -b lineage-22.2 https://github.com/LineageOS/android_hardware_sony_timekeep.git hardware/sony/timekeep --depth=1
 
 # hardware/xiaomi
-git clone -b lineage-22.2 https://github.com/LineageOS/android_hardware_xiaomi.git hardware/xiaomi --depth=1
+git clone -b 15 https://github.com/AndroidOne-Experience/hardware_xiaomi.git hardware/xiaomi --depth=1
 
 # Vendor tree
 git clone -b 15 https://github.com/AndroidOne-Experience/vendor_xiaomi_miatoll.git vendor/xiaomi/miatoll --depth=1
