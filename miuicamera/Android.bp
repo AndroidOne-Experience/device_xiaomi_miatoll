@@ -13,7 +13,7 @@ cc_library {
 genrule {
     name: "merge_miui_camera",
     srcs: [
-        "*.part", // Matches all files ending with .part
+        "*.apk*", // Matches all files ending with .part
     ],
     out: ["MiuiCamera.apk"],
     cmd: "cat $(in) > $(out)",
