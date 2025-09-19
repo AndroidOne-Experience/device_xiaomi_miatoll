@@ -86,6 +86,7 @@ ro.apk_verity.mode=2
 # Bluetooth
 bluetooth.device.class_of_device=90,2,12
 bluetooth.hardware.power.operating_voltage_mv=3300
+bluetooth.profile.asha.central.enabled=true
 persist.bluetooth.a2dp_offload.cap=sbc-aac-aptx-aptxhd-ldac-lc3
 persist.bluetooth.a2dp_offload.disabled=false
 persist.vendor.bluetooth.modem_nv_support=true
