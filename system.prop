@@ -1,6 +1,9 @@
 # Audio
 audio.offload.min.duration.secs=30
 
+# Animation
+persist.sys.activity_anim_perf_override=true
+
 # Camera
 persist.sys.cam.skip_detach_image=true
 
