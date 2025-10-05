@@ -1,22 +1,5 @@
 #!/bin/bash
 
-# Clang
-CLANG_PATH="prebuilts/clang/host/linux-x86/clang-latest" # Define clang path
-CLANG_URL="https://github.com/userariii/clang-19_r-530567/releases/download/clang-r530567/clang-r530567.tar.gz" # Define clang URL
-CLANG_TARBALL="$CLANG_PATH/clang-r*.tar.gz" # Define tarball path
-CHECK_FILE="$CLANG_PATH/bin/clang" # Check if Clang is already extracted (adjust this file path if needed)
-mkdir -p "$CLANG_PATH" # Ensure the directory exists
-# Check if Clang is already extracted
-if [ -f "$CHECK_FILE" ]; then
-    echo "Clang is already installed. Skipping download."
-else
-    echo "Clang not found, downloading..."
-    wget -O "$CLANG_TARBALL" "$CLANG_URL" # Download the tarball
-    tar -xvf "$CLANG_TARBALL" -C "$CLANG_PATH" # Extract the tarball
-    rm -f "$CLANG_TARBALL" # Remove the tarball
-    echo "Clang has been downloaded and extracted successfully."
-fi
-
 # hardware/sony/timekeep
 git clone -b lineage-22.2 https://github.com/LineageOS/android_hardware_sony_timekeep.git hardware/sony/timekeep --depth=1
 
