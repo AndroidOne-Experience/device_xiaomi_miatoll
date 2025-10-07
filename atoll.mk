@@ -94,6 +94,9 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.display.allocator-service \
     vendor.qti.hardware.memtrack-service
 
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.sf.lcd_density=420
+
 # DRM
 PRODUCT_PACKAGES += \
     android.hardware.drm-service.clearkey
