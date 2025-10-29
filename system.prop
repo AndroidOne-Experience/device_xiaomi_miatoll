@@ -1,5 +1,6 @@
 # Audio
 audio.offload.min.duration.secs=30
+audio.spatializer.priority=3
 
 # Animation
 persist.sys.activity_anim_perf_override=true
