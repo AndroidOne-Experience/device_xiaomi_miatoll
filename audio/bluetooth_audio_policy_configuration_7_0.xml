@@ -16,17 +16,44 @@
         <devicePort tagName="BT A2DP Out" type="AUDIO_DEVICE_OUT_BLUETOOTH_A2DP" role="sink">
             <profile name="" format="AUDIO_FORMAT_PCM_16_BIT"
                      samplingRates="44100 48000 88200 96000"
-                     channelMasks="AUDIO_CHANNEL_OUT_STEREO"/>
+                     channelMasks="AUDIO_CHANNEL_OUT_STEREO AUDIO_CHANNEL_OUT_5POINT1"/>
+            <profile name="" format="AUDIO_FORMAT_AC3"
+                     samplingRates="32000,44100,48000"
+                     channelMasks="AUDIO_CHANNEL_OUT_STEREO,AUDIO_CHANNEL_OUT_2POINT1,AUDIO_CHANNEL_OUT_5POINT1"/>
+            <profile name="" format="AUDIO_FORMAT_E_AC3"
+                     samplingRates="32000,44100,48000"
+                     channelMasks="AUDIO_CHANNEL_OUT_STEREO,AUDIO_CHANNEL_OUT_2POINT1,AUDIO_CHANNEL_OUT_5POINT1,AUDIO_CHANNEL_OUT_6POINT1,AUDIO_CHANNEL_OUT_7POINT1"/>
+            <profile name="" format="AUDIO_FORMAT_E_AC3_JOC"
+                     samplingRates="32000,44100,48000"
+                     channelMasks="AUDIO_CHANNEL_OUT_STEREO,AUDIO_CHANNEL_OUT_2POINT1,AUDIO_CHANNEL_OUT_5POINT1,AUDIO_CHANNEL_OUT_6POINT1,AUDIO_CHANNEL_OUT_7POINT1"/>
         </devicePort>
         <devicePort tagName="BT A2DP Headphones" type="AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_HEADPHONES" role="sink">
             <profile name="" format="AUDIO_FORMAT_PCM_16_BIT"
                      samplingRates="44100 48000 88200 96000"
-                     channelMasks="AUDIO_CHANNEL_OUT_STEREO"/>
+                     channelMasks="AUDIO_CHANNEL_OUT_STEREO AUDIO_CHANNEL_OUT_5POINT1"/>
+            <profile name="" format="AUDIO_FORMAT_AC3"
+                     samplingRates="32000,44100,48000"
+                     channelMasks="AUDIO_CHANNEL_OUT_STEREO,AUDIO_CHANNEL_OUT_2POINT1,AUDIO_CHANNEL_OUT_5POINT1"/>
+            <profile name="" format="AUDIO_FORMAT_E_AC3"
+                     samplingRates="32000,44100,48000"
+                     channelMasks="AUDIO_CHANNEL_OUT_STEREO,AUDIO_CHANNEL_OUT_2POINT1,AUDIO_CHANNEL_OUT_5POINT1,AUDIO_CHANNEL_OUT_6POINT1,AUDIO_CHANNEL_OUT_7POINT1"/>
+            <profile name="" format="AUDIO_FORMAT_E_AC3_JOC"
+                     samplingRates="32000,44100,48000"
+                     channelMasks="AUDIO_CHANNEL_OUT_STEREO,AUDIO_CHANNEL_OUT_2POINT1,AUDIO_CHANNEL_OUT_5POINT1,AUDIO_CHANNEL_OUT_6POINT1,AUDIO_CHANNEL_OUT_7POINT1"/>
         </devicePort>
         <devicePort tagName="BT A2DP Speaker" type="AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_SPEAKER" role="sink">
             <profile name="" format="AUDIO_FORMAT_PCM_16_BIT"
                      samplingRates="44100 48000 88200 96000"
-                     channelMasks="AUDIO_CHANNEL_OUT_STEREO"/>
+                     channelMasks="AUDIO_CHANNEL_OUT_STEREO AUDIO_CHANNEL_OUT_5POINT1"/>
+            <profile name="" format="AUDIO_FORMAT_AC3"
+                     samplingRates="32000,44100,48000"
+                     channelMasks="AUDIO_CHANNEL_OUT_STEREO,AUDIO_CHANNEL_OUT_2POINT1,AUDIO_CHANNEL_OUT_5POINT1"/>
+            <profile name="" format="AUDIO_FORMAT_E_AC3"
+                     samplingRates="32000,44100,48000"
+                     channelMasks="AUDIO_CHANNEL_OUT_STEREO,AUDIO_CHANNEL_OUT_2POINT1,AUDIO_CHANNEL_OUT_5POINT1,AUDIO_CHANNEL_OUT_6POINT1,AUDIO_CHANNEL_OUT_7POINT1"/>
+            <profile name="" format="AUDIO_FORMAT_E_AC3_JOC"
+                     samplingRates="32000,44100,48000"
+                     channelMasks="AUDIO_CHANNEL_OUT_STEREO,AUDIO_CHANNEL_OUT_2POINT1,AUDIO_CHANNEL_OUT_5POINT1,AUDIO_CHANNEL_OUT_6POINT1,AUDIO_CHANNEL_OUT_7POINT1"/>
         </devicePort>
         <!-- Hearing AIDs Audio Ports -->
         <devicePort tagName="BT Hearing Aid Out" type="AUDIO_DEVICE_OUT_HEARING_AID" role="sink"/>
