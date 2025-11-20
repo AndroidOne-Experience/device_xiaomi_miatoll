@@ -177,7 +177,7 @@ persist.log.tag.HWUI=S
 persist.log.tag.MediaProvider=S
 persist.log.tag.QC2Buf=S
 persist.log.tag.ContextImpl=S
-
+persist.log.tag.IWlanNetworkService=S
 
 
 # Dolby
