@@ -474,7 +474,7 @@ vendor/etc/vintf/manifest/vendor.dolby.media.c2@1.0-service.xml|c4c383d9900337e2
 vendor/lib/libdapparamstorage.so|044abf28acdbace176b7966af1899faaf2cde836
 vendor/lib/libdlbpreg.so|aac7988cd6cd22646c9c10074a007f5712862f2b
 vendor/lib/soundfx/libdlbvol.so|fbc6a55a53cf99b9f5055aa4b70391060c2df8da
-vendor/lib/soundfx/libswdap.so|aedcc8cade96ba9d7a8b4f633f001a6976b23510
+vendor/lib/soundfx/libswdap.so|aedcc8cade96ba9d7a8b4f633f001a6976b23510|6f56196c0bcafdc34728e250e54385ef8c20d799
 vendor/lib/soundfx/libswgamedap.so|5b0b30780d49159467515b2b587990a6df5094bf
 vendor/lib/soundfx/libswvqe.so|e3ba867a69b37624b2ac6c3827c647d9f4f4e6b9
 vendor/lib/vendor.dolby.hardware.dms@2.0.so|e72e040daa61398335c2435f6c37041cc2973057
@@ -488,7 +488,7 @@ vendor/lib64/libdlbdsservice.so|c5e1c4913bfb17ba23608be3e4a2e102f8bc8a7f|4d94611
 vendor/lib64/libdlbpreg.so|a636ce9056611cf75171cce3b41495b591b503e3
 vendor/lib64/liboem_specific.so|4717a9f2044858c5e48ed75bf7afb4d769e2a264
 vendor/lib64/soundfx/libdlbvol.so|d823cc40ad6f60b424fb50bc8f206bff33fbfb69
-vendor/lib64/soundfx/libswdap.so|27cb4402bad389287b0b114398d66c96b9b17e49
+vendor/lib64/soundfx/libswdap.so|27cb4402bad389287b0b114398d66c96b9b17e49|df21fbe4475431ea8f715f9d58da0cfec9f92fd7
 vendor/lib64/soundfx/libswgamedap.so|6be673e25f25f8f2013b5785725016802e8eced8
 vendor/lib64/soundfx/libswvqe.so|23f22eb9ae81e1f8789a81808794a0c2fdc88137
 vendor/lib64/vendor.dolby.hardware.dms@2.0-impl.so|59ba0b46c622f28e34f49a334c4cfe6d4bc34be6
