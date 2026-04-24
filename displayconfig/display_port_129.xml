@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<displayConfiguration>
+    <hdrBrightnessConfig>
+        <brightnessMap>
+            <point>
+                <first>50000</first>
+                <second>1.0</second>
+            </point>
+        </brightnessMap>
+        <brightnessIncreaseDebounceMillis>0</brightnessIncreaseDebounceMillis>
+        <screenBrightnessRampIncrease>0.02</screenBrightnessRampIncrease>
+        <brightnessDecreaseDebounceMillis>0</brightnessDecreaseDebounceMillis>
+        <screenBrightnessRampDecrease>0.02</screenBrightnessRampDecrease>
+        <minimumHdrPercentOfScreenForNbm>0</minimumHdrPercentOfScreenForNbm>
+        <minimumHdrPercentOfScreenForHbm>0</minimumHdrPercentOfScreenForHbm>
+        <allowInLowPowerMode>false</allowInLowPowerMode>
+        <sdrHdrRatioMap>
+            <point>
+                <first>2.0</first>
+                <second>8.0</second>
+            </point>
+            <point>
+                <first>450.0</first>
+                <second>1.5</second>
+            </point>
+        </sdrHdrRatioMap>
+    </hdrBrightnessConfig>
+</displayConfiguration>
