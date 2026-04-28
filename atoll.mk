@@ -98,6 +98,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.sf.lcd_density=420
 
+# Dolby
+$(call inherit-product, device/xiaomi/miatoll/dolby/dolby-setup.mk)
+
 # DRM
 PRODUCT_PACKAGES += \
     android.hardware.drm-service.clearkey
