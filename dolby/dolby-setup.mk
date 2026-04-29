@@ -18,3 +18,20 @@ PRODUCT_VENDOR_PROPERTIES += \
     vendor.audio.dolby.ds2.hardbypass=false \
     vendor.audio.dolby.ds2.enabled=false \
     ro.vendor.dolby.dax.version=DAX3_3.7.0.8_r1
+
+# daxService (Lenovo)
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/soundfx/system_ext/etc/permissions/privapp-com.dolby.daxservice.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.dolby.daxservice.xml \
+    $(LOCAL_PATH)/soundfx/system_ext/etc/sysconfig/config-com.dolby.daxservice.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/sysconfig/config-com.dolby.daxservice.xml \
+    $(LOCAL_PATH)/soundfx/system_ext/etc/sysconfig/hiddenapi-com.dolby.daxservice.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/sysconfig/hiddenapi-whitelist-com.dolby.daxservice.xml
+
+PRODUCT_PACKAGES += \
+    daxService
+
+# DAXUI (Lenovo)
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/soundfx/system_ext/etc/permissions/privapp-com.dolby.daxappui.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/privapp-com.dolby.daxappui.xml \
+    $(LOCAL_PATH)/soundfx/system_ext/etc/sysconfig/config-com.dolby.daxappui.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/sysconfig/config-com.dolby.daxappui.xml
+
+PRODUCT_PACKAGES += \
+	DaxUI
