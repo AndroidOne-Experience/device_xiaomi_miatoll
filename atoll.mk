@@ -160,6 +160,11 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.ir-service.example
 
+# Kernel
+TARGET_KERNEL_DIR ?= $(LOCAL_PATH)/prebuilt-kernel
+LOCAL_KERNEL := $(TARGET_KERNEL_DIR)/Image.gz
+PRODUCT_COPY_FILES += $(LOCAL_KERNEL):kernel
+
 # Lights
 PRODUCT_PACKAGES += \
     android.hardware.light-service.lineage
