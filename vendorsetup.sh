@@ -6,6 +6,10 @@ git clone -b lineage-23.2 https://github.com/LineageOS/android_hardware_sony_tim
 # hardware/xiaomi
 git clone -b 16-QPR2 https://github.com/AndroidOne-Experience/hardware_xiaomi.git hardware/xiaomi --depth=1
 
+# hardware/lineage/combat
+rm -rf hardware/lineage/compat
+git clone -b 16-QPR2 https://github.com/AndroidOne-Experience/hardware_lineage_compat.git hardware/lineage/compat --depth=1
+
 # Vendor tree
 git clone -b 16-QPR2 https://github.com/AndroidOne-Experience/vendor_xiaomi_miatoll.git vendor/xiaomi/miatoll --depth=1
 
