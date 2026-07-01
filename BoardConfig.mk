@@ -168,6 +168,7 @@ VENDOR_SECURITY_PATCH := 2023-05-01
 # Sepolicy
 include $(DEVICE_PATH)/sepolicy/miuicamera/SEPolicy.mk
 include $(DEVICE_PATH)/sepolicy/misys/SEPolicy.mk
+include device/lineage/sepolicy/libion/sepolicy.mk
 include device/lineage/sepolicy/libperfmgr/sepolicy.mk
 include device/qcom/sepolicy_vndr/SEPolicy.mk
 include hardware/sony/timekeep/sepolicy/SEPolicy.mk
