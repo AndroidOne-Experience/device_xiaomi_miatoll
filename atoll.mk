@@ -99,6 +99,11 @@ PRODUCT_PACKAGES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.sf.lcd_density=420
 
+# Dolby
+$(call inherit-product, vendor/dolby/dolby-setup.mk)
+# Dolby Vision
+TARGET_SUPPORTS_DOVI := true
+
 # DRM
 PRODUCT_PACKAGES += \
     android.hardware.drm-service.clearkey
