@@ -463,35 +463,6 @@ vendor/lib64/libcvp_common.so
 vendor/lib64/libcvp_stub.so
 vendor/lib64/vendor.qti.hardware.cvp@1.0.so
 
-# Dolby - from Sony XQ-DQ72_SEA_67.2.A.3.163
-vendor/bin/hw/vendor.dolby.hardware.dms@2.0-service|76fe11bc5778d47f6f88f2233b6b2b2022733241
-vendor/bin/hw/vendor.dolby.media.c2@1.0-service|e85d9ddc34fb3fe6fa4fcd6bb69a06d2049f556c
-vendor/etc/init/vendor.dolby.hardware.dms@2.0-service.rc|29296ebfe89b2697fec573be73cc3757fd97bed6
-vendor/etc/init/vendor.dolby.media.c2@1.0-service.rc|bc1e134139c7dd0e5b4f98952aa51c629ea66dc7
-vendor/etc/media_codecs_dolby_audio.xml|3119c61cc5471bb7902ac8b1ccd5785bb55a1918
-vendor/etc/vintf/manifest/vendor.dolby.hardware.dms.xml|c8095f649de19b80271fb429b4b6b439297a0678
-vendor/etc/vintf/manifest/vendor.dolby.media.c2@1.0-service.xml|c4c383d9900337e2bad0f732d0b3e450fa64f19d
-vendor/lib/libdapparamstorage.so|044abf28acdbace176b7966af1899faaf2cde836
-vendor/lib/libdlbpreg.so|aac7988cd6cd22646c9c10074a007f5712862f2b
-vendor/lib/soundfx/libswdap.so|aedcc8cade96ba9d7a8b4f633f001a6976b23510|6f56196c0bcafdc34728e250e54385ef8c20d799
-vendor/lib/soundfx/libswgamedap.so|5b0b30780d49159467515b2b587990a6df5094bf
-vendor/lib/soundfx/libswvqe.so|e3ba867a69b37624b2ac6c3827c647d9f4f4e6b9
-vendor/lib/vendor.dolby.hardware.dms@2.0.so|e72e040daa61398335c2435f6c37041cc2973057
-vendor/lib64/libcodec2_soft_ac4dec.so|9b00e0d1a072fa523c1f0c1aabda58703259269d
-vendor/lib64/libcodec2_soft_ddpdec.so|8b6ff30bd4d6371d16b807dc122d98723f89afbd
-vendor/lib64/libcodec2_soft_dolby.so|2856111922898f65e522b24b03c5a1dccf3e59de
-vendor/lib64/libcodec2_store_dolby.so|37dab034d10c78443b0cdb16df62a0664c53c4eb
-vendor/lib64/libdapparamstorage.so|a09b0b02ed61e96e6760102ed6c85c89e6b3f1a7
-vendor/lib64/libdeccfg.so|1a3392c530cb36c728a1cc1d18619c7444cde248
-vendor/lib64/libdlbdsservice.so|c5e1c4913bfb17ba23608be3e4a2e102f8bc8a7f|4d9461180a06166d8df706a8a4aae57509d18255
-vendor/lib64/libdlbpreg.so|a636ce9056611cf75171cce3b41495b591b503e3
-vendor/lib64/liboem_specific.so|4717a9f2044858c5e48ed75bf7afb4d769e2a264
-vendor/lib64/soundfx/libswdap.so|27cb4402bad389287b0b114398d66c96b9b17e49|df21fbe4475431ea8f715f9d58da0cfec9f92fd7
-vendor/lib64/soundfx/libswgamedap.so|6be673e25f25f8f2013b5785725016802e8eced8
-vendor/lib64/soundfx/libswvqe.so|23f22eb9ae81e1f8789a81808794a0c2fdc88137
-vendor/lib64/vendor.dolby.hardware.dms@2.0-impl.so|59ba0b46c622f28e34f49a334c4cfe6d4bc34be6
-vendor/lib64/vendor.dolby.hardware.dms@2.0.so|1c6b82e7da2d3e6ba712f9c9e7f96178280361de
-
 # DPM (system) - from dodge
 system_ext/bin/dpmd|9dc27f51645a8aaf80ad91347e69c2b0e846170c
 system_ext/etc/dpm/dpm.conf|95e27da8c989e96c6faea6f0697bce11955b62a5
